@@ -1,0 +1,63 @@
+En la programación orientada a objetos (y en Java), un constructor es un método especial que se utiliza para inicializar un objeto recién creado y asignarle valores iniciales a sus variables de instancia.
+
+En otras palabras, un constructor es una función que se ejecuta automáticamente cuando se crea un objeto de una clase específica.
+
+ 
+ 
+ 
+Para qué sirve un constructor en Java
+Un constructor sirve para inicializar el objeto y establecer sus propiedades y valores predeterminados. Tiene el mismo nombre que la clase y no cuenta con ningún valor de retorno, ya que su función principal es inicializar el objeto y no devolver ningún valor.
+
+Además, un constructor puede aceptar argumentos, lo que permite configurar el objeto con valores específicos al momento de su creación.
+
+Antes de definir un constructor en la programación orientada a objetos, es necesario definir la clase que contiene el constructor. La clase es el «molde» a partir del cual se crearán los objetos, y es en la definición de la clase donde se establecen las propiedades y los métodos que los objetos podrán utilizar.
+
+Una vez que se ha definido la clase, se puede determinar el constructor. Debe tener el mismo nombre que la clase y se define dentro de la clase. El constructor puede tener parámetros si se desea que los objetos tengan valores iniciales específicos al ser creados.
+
+Cómo se implementan los constructores en Java
+Un constructor en Java tiene el mismo nombre que la clase a la que pertenece, y no posee un tipo de retorno explícito, lo que significa que no se utiliza la palabra clave void ni ningún otro tipo de datos para especificar el valor de retorno del constructor.
+
+Un constructor puede tener parámetros, mismos que se utilizan para proporcionar valores iniciales a los campos de datos de la clase. Estos parámetros se especifican en la definición del constructor, entre los paréntesis.
+
+Por ejemplo, supongamos que tenemos una clase Persona con los campos nombre y edad. Podemos definir un constructor para la clase Persona:
+
+
+
+
+
+PUBLIC CLASS PERSONA {
+
+STRING NOMBRE;
+
+INT EDAD;
+
+PUBLIC PERSONA(STRING NOMBRE, INT EDAD) {
+
+THIS.NOMBRE = NOMBRE;
+
+THIS.EDAD = EDAD;
+
+}
+
+}
+
+
+
+
+PUBLIC CLASS COCHE {
+
+STRING MARCA;
+
+DOUBLE KILOMETRAJE;
+
+STRING COLOR;
+
+STRING DISEÑO;
+
+INT ANOFABRICACION;
+
+DOUBLE PRECIO;
+
+STRING MODELO;
+
+}
